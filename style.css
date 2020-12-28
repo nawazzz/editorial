@@ -1,0 +1,232 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* =============================================== */
+
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto Slab', serif;
+}
+.mainContainer{
+    width: 100%;
+}
+.subMainContainer{
+    width: 100%;
+    display: flex;
+}
+/* .burgerContainer{
+    width: 25%;
+} */
+.heroContainer{
+    width: 100%;
+}
+.heroBox{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.heroContentBox{
+    display: flex;
+    padding: 10px;
+}
+.editorialByHtml{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 10px 10px 10px;
+}
+.editorialByHtml a{
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 800;
+    color: black;
+}
+
+.instaMenu{
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+}
+.redBorderParent{
+    padding: 20px 10px 20px 10px;
+}
+.redBorder{
+    height: 5px;
+    background-color: #cd4141;
+}
+.iAmEditorial{
+    font-size: 40px;
+    font-weight: 700;
+    padding: 10px;
+    letter-spacing: 1px;
+    line-height: 1.5;
+}
+.freeAndFully{
+    font-size: 15px;
+    letter-spacing: 1px;
+    padding: 10px;
+    line-height: 1.5;
+}
+.aeneanOrnare{
+    font-size: 15px;
+    padding: 10px;
+    letter-spacing: 1px;
+    line-height: 1.5;
+}
+.learnMoreBox{
+    padding: 10px;
+}
+.learnMore{
+    font-size: 13px;
+    font-weight: 700;
+    padding: 10px;
+    border: 2px solid #cd4141;
+    width: 120px;
+    border-radius: 5px;
+}
+.learnMore a{
+    text-decoration: none;
+    color: #cd4141;
+
+}
+.editorialImage{
+    padding: 20px 10px 10px 10px;
+}
+.editorialImage img{
+    width: 500px;
+    border-radius: 5px;
+
+}
+.greyBorderParent{
+    padding: 30px 10px 20px 10px;
+}
+.greyBorder{
+    height: 3px;
+    background-color: #ded6d6;
+}
+.eratLaciniaContainer{
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+}
+.headingErat{
+    padding: 20px;
+}
+.headingEratLacinia{
+    font-size: 30px;
+    font-weight: 900;
+    padding: 20px;
+    letter-spacing: 1px;
+    line-height: 1;
+}
+.lacinia{
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+}
+.laciniaOne{
+    display: flex;
+    justify-content: space-between;
+    width: 50%
+}
+.contentLacinia{
+    padding: 20px;
+}
+.headingFive{
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    line-height: 1;
+}
+.paraFive{
+    font-size: 15px;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    padding: 10px 0 10px 0;
+}
+
+.imageLaciania img{
+    width: 150px;
+}
+.bottomContainer{
+    padding: 20px;
+}
+.bottomImageContainer{
+    display: flex;
+    flex-wrap: wrap;
+}
+.firstContainer{
+    padding: 20px;
+    width: 50%;
+}
+.imageOne{
+    padding: 20px;
+}
+.imageOne img{
+    width: 100%;
+}
+.firstContainerContent{
+    padding: 20px;
+}
+.moreBox{
+    padding: 10px 10px 10px 0;
+}
+.more{
+    font-size: 13px;
+    font-weight: 700;
+    padding: 10px;
+    border: 2px solid #cd4141;
+    width: 60px;
+    border-radius: 5px;
+}
+.more a{
+    text-decoration: none;
+    color: #cd4141;
+
+}
