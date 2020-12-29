@@ -258,7 +258,7 @@ body{
 }
 /* ==================================== */
 
-@media only screen and (min-width: 500px) and (max-width: 720px){
+@media only screen and (min-width: 421px) and (max-width: 720px){
     .heroContentBox{
         width: 100%;
         flex-wrap:wrap-reverse;
@@ -311,7 +311,7 @@ body{
 }
 
 
-@media only screen and (min-width: 240px) and (max-width: 500px) {
+@media only screen and (min-width: 240px) and (max-width: 420px) {
     .hiEditorial{
         width: 100%;
     }
