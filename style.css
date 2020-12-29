@@ -204,11 +204,10 @@ body{
 }
 
 .imageLaciania{
-    width: 50%;
-    /* height: 50%; */
+    width: 85px;
 }
 .contentLacinia{
-    padding: 20px;
+    padding: 10px;
 }
 .headingFive{
     font-size: 18px;
@@ -259,16 +258,16 @@ body{
 }
 /* ==================================== */
 
-@media only screen and (max-width: 720px){
+@media only screen and (min-width: 500px) and (max-width: 720px){
     .heroContentBox{
         width: 100%;
         flex-wrap:wrap-reverse;
     }
     .hiEditorial{
-        width: 50%;
+        width: 100%;
     }
     .editorialImage{
-        width: 50%;
+        width: 100%;
     }
     .iAmEditorial{
         font-size: 25px;        
@@ -277,6 +276,37 @@ body{
         font-size: 12px;
         line-height: 1.5;
     }
+    .eratLaciniaContainer{
+        padding: 10px;
+    }
+    .lacinia{
+        padding: 0;
+        flex-wrap: wrap;
+    }
+    .imageLaciania {
+        width: 50%;
+        padding: 10px;
+    }
+    .bottomContainer{
+        padding: 0;
+    }
+    .headingErat{
+        padding: 0;
+    }
+    .firstContainer{
+        padding: 0;
+    }
+    .headingFive {
+        font-size: 14px;
+        font-weight: 700;
+        letter-spacing: 1px;
+        line-height: 1;
+    }
+    .paraFive {
+        font-size: 12px;
+        letter-spacing: 1px;
+        line-height: 1.5;
+        padding: 10px 0 10px 0;
     /* .lacinia{
         flex-wrap: wrap;
         padding: 0 10px 0 10px;
@@ -302,30 +332,45 @@ body{
 
 @media only screen and (min-width: 240px) 
   and (max-width: 500px) {
-      .hiEditorial{
-          width: 100%;
-      }
-      .editorialImage{
+    .hiEditorial{
         width: 100%;
+    }
+    .editorialImage{
+        width: 100%;
+    }
+    .heroContentBox{
+        padding: 0;
+        flex-wrap: wrap-reverse;
     }
     .lacinia{
         flex-wrap: wrap;
         width: 100%;
     }
-    .img-responsive{
-        width: 60%;
-        height: 100%;
-    }
     .paraFive{
-        width: 250px;
         font-size: 12px;
     }
     .laciniaOne{
         flex-wrap: wrap;
+        padding: 10px;
     }
     .firstContainer{
         flex-wrap: wrap;
         width: 100%
+    }
+    .eratLaciniaContainer{
+        padding: 0;
+    }
+    .lacinia{
+        padding: 0;
+    }
+    .bottomContainer{
+        padding: 0;
+    }
+    .headingErat{
+        padding: 0;
+    }
+    .firstContainer{
+        padding: 0;
     }
 
 }
