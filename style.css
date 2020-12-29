@@ -54,6 +54,31 @@ table {
 body{
     font-family: 'Roboto Slab', serif;
 }
+
+/* common class */
+
+.img-responsive {
+    width: 100%;
+    height: 100%;
+}
+
+.main-centered-container {
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.pad10 {
+    padding: 10px;
+}
+
+.flex {
+    display: flexbox;
+}
+
+.jc-spaceBetween {
+    justify-content: space-between;
+}
+
 .mainContainer{
     width: 100%;
 }
@@ -66,6 +91,9 @@ body{
 } */
 .heroContainer{
     width: 100%;
+}
+.burgerMenuIcon{
+    width: 30px;
 }
 .heroBox{
     width: 90%;
@@ -139,7 +167,6 @@ body{
     padding: 20px 10px 10px 10px;
 }
 .editorialImage img{
-    width: 500px;
     border-radius: 5px;
 
 }
@@ -173,7 +200,12 @@ body{
 .laciniaOne{
     display: flex;
     justify-content: space-between;
-    width: 50%
+    width: 100%
+}
+
+.imageLaciania{
+    width: 50%;
+    /* height: 50%; */
 }
 .contentLacinia{
     padding: 20px;
@@ -191,9 +223,7 @@ body{
     padding: 10px 0 10px 0;
 }
 
-.imageLaciania img{
-    width: 150px;
-}
+
 .bottomContainer{
     padding: 20px;
 }
@@ -207,9 +237,6 @@ body{
 }
 .imageOne{
     padding: 20px;
-}
-.imageOne img{
-    width: 100%;
 }
 .firstContainerContent{
     padding: 20px;
@@ -230,3 +257,79 @@ body{
     color: #cd4141;
 
 }
+/* ==================================== */
+
+@media only screen and (max-width: 720px){
+    .heroContentBox{
+        width: 100%;
+        flex-wrap:wrap-reverse;
+    }
+    .hiEditorial{
+        width: 50%;
+    }
+    .editorialImage{
+        width: 50%;
+    }
+    .iAmEditorial{
+        font-size: 25px;        
+    }
+    .aeneanOrnare{
+        font-size: 12px;
+        line-height: 1.5;
+    }
+    /* .lacinia{
+        flex-wrap: wrap;
+        padding: 0 10px 0 10px;
+    } */
+    /* .contentLacinia{
+        /* width: 300px; 
+    } */
+    /* .laciniaOne{
+        width: 80%;
+    } */
+    /* .headingFive{
+        width: 100%;
+    } */
+    /* .paraFive{
+        width: 250px;
+        font-size: 12px;
+    } */
+    /* .laciniaOne{
+        flex-wrap: wrap;
+    } */
+}
+
+
+@media only screen and (min-width: 320px) 
+  and (max-width: 500px) {
+      .hiEditorial{
+          width: 100%;
+      }
+      .editorialImage{
+        width: 100%;
+    }
+    .lacinia{
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .img-responsive{
+        width: 60%;
+        height: 100%;
+    }
+    .paraFive{
+        width: 250px;
+        font-size: 12px;
+    }
+    .laciniaOne{
+        flex-wrap: wrap;
+    }
+    .firstContainer{
+        flex-wrap: wrap;
+        width: 100%
+    }
+
+}
+
+
+
+
