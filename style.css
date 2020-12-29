@@ -307,31 +307,11 @@ body{
         letter-spacing: 1px;
         line-height: 1.5;
         padding: 10px 0 10px 0;
-    /* .lacinia{
-        flex-wrap: wrap;
-        padding: 0 10px 0 10px;
-    } */
-    /* .contentLacinia{
-        /* width: 300px; 
-    } */
-    /* .laciniaOne{
-        width: 80%;
-    } */
-    /* .headingFive{
-        width: 100%;
-    } */
-    /* .paraFive{
-        width: 250px;
-        font-size: 12px;
-    } */
-    /* .laciniaOne{
-        flex-wrap: wrap;
-    } */
+    }
 }
 
 
-@media only screen and (min-width: 240px) 
-  and (max-width: 500px) {
+@media only screen and (min-width: 240px) and (max-width: 500px) {
     .hiEditorial{
         width: 100%;
     }
